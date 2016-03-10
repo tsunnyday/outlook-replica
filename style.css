@@ -1,49 +1,155 @@
+* {
+	font-family: Arial;
+	padding: none;
+	margin: none;
+	border: none;
+}
+
 a{
 	text-decoration: none;
+	color: #0072C6;
+}
+
+a:hover{
+	color: #4A95DD;
 }
 
 #left{
 	float: left;
 	width: 475px;
-	margin-left: 15%;
-	margin-top: 3%;
+	margin-left: 226px;
+	margin-top: 32px;
 	margin-bottom: 0;
+	height: 680px;
+}
+
+#left h1{
+	font-size: 31px;
+	font-weight: 100;
+
+}
+
+#left p{
+	font-size: 14px;	
+	font-weight: 100;
+}
+
+#left img{
+	display: block;
+	
 }
 
 #blue-window{
-	background-color: teal;
+	display: block;	
+	background-color: #0072C6;
 	color: white;
-	padding: 20px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 32px;
+	
+	
+}
+
+#blue-window h1{
 	margin: 0;
+
 }
 
 #learn-more{
-	color: teal;
+	color: #0072C6;
 	background-color: white;
+	font-family: arial;
+	font-size: 13px;
+	padding: 3px 6px;
+}
+
+#learn-more:hover{
+	background-color: #E5E5E5;
+
 }
 
 #right{
+	margin-top: 56px;
 	float: left;
 	padding-left: 8%;
 }
 
-input[type="text"]{
-	display: block;
+#right img{
+	padding-bottom: 28px;
 }
+
+#right p{
+	font-size: 12px;
+}
+
+input[type="text"]{
+	margin-bottom: 10px;
+	padding-left: 8px;
+	display: block;
+	color: #666666;
+	border: 1px solid #666666;
+	font-size: 14px;
+	width: 310px;
+	height: 28px;
+}
+
+input[type="text"]:focus{
+		border: 1px solid #454545;
+
+}
+
+
 
 #keep-signed-in p{
 	display: inline;
+	font-size: 14px;
 }
 
 input[type="button"]{
 	color: white;
-	background-color: teal;
+	background-color: #0072C6;
 	border: none;
-	padding: 5px 15px;
+	font-size: 14px;
+	padding: 6px 18px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#make-account{
+	margin-top: 78px;
+
+
+}
+#make-account p{
+	font-size: 14px;
+}
+
+#make-account p a{
+	font-weight: 700;
 }
 
 #footer{
-	clear: both;
+	text-align: right;
+	background-color: #EEEEEE;
+	position: fixed;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+	right: 0;
+	padding-right: 236px;
+	padding-top: 20px;
+	padding-bottom: 16px;
 	
+}
+
+#footer ul li{
+	display: inline;
+	font-size: 12px;
+	padding-left: 10px;
+	
+}
+#footer ul li:not(a){
+	color: #666666;
+	color: #666666;
 }
 	
